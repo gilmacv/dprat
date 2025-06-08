@@ -1,17 +1,13 @@
-
 {
-  "name": "derech-prat-chatbot",
+  "name": "dprat",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "body-parser": "^1.20.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
-    "express": "^4.18.1",
-    "openai": "^4.0.0"
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   }
 }
